@@ -1,7 +1,9 @@
-import { Navbar, Nav } from "react-bootstrap";
-import { Link, useLocation } from "react-router-dom";
+/* import { Navbar, Nav } from "react-bootstrap"
+import { Link, useLocation } from "react-router-dom" */
 
-const MyNav = (props) => {
+const MyNav = () => {
+  /* 
+  poner props
   const location = useLocation();
 
   return (
@@ -44,7 +46,8 @@ const MyNav = (props) => {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
-  );
-};
+  );*/
+  return <></>
+}
 
-export default MyNav;
+export default MyNav
